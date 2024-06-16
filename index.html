@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="informacoes">
+            <p class="mensagem">
+                FICOU COM DÚVIDA? <br>
+                NOS MANDE UMA MENSAGEM!
+            </p>
+
+            <p class="paragrafo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+                entraremos em contato em menos de 24h.</p>
+        </div>
+
+
+        <form class="form" id="form">
+
+            <input id="name" class="informacaoDados" type="text" name="name" placeholder="Nome Completo *">
+            <span class="campo-invalido">Campo obrigatório</span>
+
+
+            <input id="email" class="informacaoDados" type="email" name="email" placeholder="Email *" />
+            <span class="campo-invalido">Campo obrigatório</span>
+
+
+
+            <input id="telefone" class="informacaoDados" type="tel" name="telefone" placeholder="Telefone *" />
+            <span class="campo-invalido">Campo obrigatório</span>
+
+
+
+            <textarea  class="informacaoDados message" type="text" name="message"
+                placeholder="Digite sua mensagem aqui *"></textarea>
+            <span class="campo-invalido">Campo obrigatório</span>
+
+            <h4>*campos obrigatórios</h4>
+
+            <input class="btn" type="submit" value="Enviar" />
+        </form>
+
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
